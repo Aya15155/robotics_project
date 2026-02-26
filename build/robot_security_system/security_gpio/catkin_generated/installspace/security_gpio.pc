@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/robot_project_ws/install
+
+Name: security_gpio
+Description: Description of security_gpio
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

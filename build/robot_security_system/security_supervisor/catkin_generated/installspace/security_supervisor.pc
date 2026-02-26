@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/robot_project_ws/install
+
+Name: security_supervisor
+Description: Description of security_supervisor
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

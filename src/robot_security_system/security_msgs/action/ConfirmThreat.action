@@ -1,0 +1,9 @@
+# Goal
+int32 scan_seconds
+---
+# Result
+bool confirmed
+string reason
+---
+# Feedback
+int32 seconds_elapsed
