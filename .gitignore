@@ -1,0 +1,22 @@
+# Editor backup files
+*.save
+*~
+*.swp
+*.swo
+*=
+* .save
+
+# Catkin build outputs
+build/
+devel/
+install/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+robot_project_logs/
+*.log
+*.csv
