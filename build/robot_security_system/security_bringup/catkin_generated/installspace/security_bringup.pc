@@ -1,4 +1,4 @@
-prefix=/home/vboxuser/robot_project_ws/install
+prefix=/home/ubuntu/robotics_project/install
 
 Name: security_bringup
 Description: Description of security_bringup

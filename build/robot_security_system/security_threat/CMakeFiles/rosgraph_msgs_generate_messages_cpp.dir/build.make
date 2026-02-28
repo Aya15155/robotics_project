@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/robot_project_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/robotics_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vboxuser/robot_project_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/robotics_project/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ robot_security_system/security_threat/CMakeFiles/rosgraph_msgs_generate_messages
 .PHONY : robot_security_system/security_threat/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 
 robot_security_system/security_threat/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	cd /home/vboxuser/robot_project_ws/build/robot_security_system/security_threat && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_threat && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : robot_security_system/security_threat/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 robot_security_system/security_threat/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
-	cd /home/vboxuser/robot_project_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/robot_project_ws/src /home/vboxuser/robot_project_ws/src/robot_security_system/security_threat /home/vboxuser/robot_project_ws/build /home/vboxuser/robot_project_ws/build/robot_security_system/security_threat /home/vboxuser/robot_project_ws/build/robot_security_system/security_threat/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robotics_project/src /home/ubuntu/robotics_project/src/robot_security_system/security_threat /home/ubuntu/robotics_project/build /home/ubuntu/robotics_project/build/robot_security_system/security_threat /home/ubuntu/robotics_project/build/robot_security_system/security_threat/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_security_system/security_threat/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 

@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/home/vboxuser/robot_project_ws/devel/share/roseus/ros/security_msgs/manifest.l"
-  "/home/vboxuser/robot_project_ws/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l"
-  "/home/vboxuser/robot_project_ws/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l"
-  "/home/vboxuser/robot_project_ws/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l"
-  "/home/vboxuser/robot_project_ws/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l"
-  "/home/vboxuser/robot_project_ws/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatFeedback.l"
-  "/home/vboxuser/robot_project_ws/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatGoal.l"
-  "/home/vboxuser/robot_project_ws/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatResult.l"
+  "/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/manifest.l"
+  "/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l"
+  "/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l"
+  "/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l"
+  "/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l"
+  "/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatFeedback.l"
+  "/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatGoal.l"
+  "/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatResult.l"
   "CMakeFiles/security_msgs_generate_messages_eus"
 )
 

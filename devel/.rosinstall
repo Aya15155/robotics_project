@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/vboxuser/robot_project_ws/devel/setup.sh
+    local-name: /home/ubuntu/robotics_project/devel/setup.sh

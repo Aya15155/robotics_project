@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/opt/ros/noetic/lib'
-export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
-export PWD='/home/vboxuser/robot_project_ws/build'
-export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'
+export CMAKE_PREFIX_PATH="/home/ubuntu/robotics_project/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/ubuntu/robotics_project/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/ubuntu/robotics_project/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/ubuntu/robotics_project/src:$ROS_PACKAGE_PATH"

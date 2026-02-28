@@ -1,8 +1,8 @@
-# Install script for directory: /home/vboxuser/robot_project_ws/src
+# Install script for directory: /home/ubuntu/robotics_project/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vboxuser/robot_project_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/robotics_project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,110 +49,110 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vboxuser/robot_project_ws/install/_setup_util.py")
+   "/home/ubuntu/robotics_project/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vboxuser/robot_project_ws/install" TYPE PROGRAM FILES "/home/vboxuser/robot_project_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/ubuntu/robotics_project/install" TYPE PROGRAM FILES "/home/ubuntu/robotics_project/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vboxuser/robot_project_ws/install/env.sh")
+   "/home/ubuntu/robotics_project/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vboxuser/robot_project_ws/install" TYPE PROGRAM FILES "/home/vboxuser/robot_project_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/ubuntu/robotics_project/install" TYPE PROGRAM FILES "/home/ubuntu/robotics_project/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vboxuser/robot_project_ws/install/setup.bash;/home/vboxuser/robot_project_ws/install/local_setup.bash")
+   "/home/ubuntu/robotics_project/install/setup.bash;/home/ubuntu/robotics_project/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vboxuser/robot_project_ws/install" TYPE FILE FILES
-    "/home/vboxuser/robot_project_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/vboxuser/robot_project_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/ubuntu/robotics_project/install" TYPE FILE FILES
+    "/home/ubuntu/robotics_project/build/catkin_generated/installspace/setup.bash"
+    "/home/ubuntu/robotics_project/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vboxuser/robot_project_ws/install/setup.sh;/home/vboxuser/robot_project_ws/install/local_setup.sh")
+   "/home/ubuntu/robotics_project/install/setup.sh;/home/ubuntu/robotics_project/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vboxuser/robot_project_ws/install" TYPE FILE FILES
-    "/home/vboxuser/robot_project_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/vboxuser/robot_project_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/ubuntu/robotics_project/install" TYPE FILE FILES
+    "/home/ubuntu/robotics_project/build/catkin_generated/installspace/setup.sh"
+    "/home/ubuntu/robotics_project/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vboxuser/robot_project_ws/install/setup.zsh;/home/vboxuser/robot_project_ws/install/local_setup.zsh")
+   "/home/ubuntu/robotics_project/install/setup.zsh;/home/ubuntu/robotics_project/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vboxuser/robot_project_ws/install" TYPE FILE FILES
-    "/home/vboxuser/robot_project_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/vboxuser/robot_project_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/ubuntu/robotics_project/install" TYPE FILE FILES
+    "/home/ubuntu/robotics_project/build/catkin_generated/installspace/setup.zsh"
+    "/home/ubuntu/robotics_project/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vboxuser/robot_project_ws/install/setup.fish;/home/vboxuser/robot_project_ws/install/local_setup.fish")
+   "/home/ubuntu/robotics_project/install/setup.fish;/home/ubuntu/robotics_project/install/local_setup.fish")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vboxuser/robot_project_ws/install" TYPE FILE FILES
-    "/home/vboxuser/robot_project_ws/build/catkin_generated/installspace/setup.fish"
-    "/home/vboxuser/robot_project_ws/build/catkin_generated/installspace/local_setup.fish"
+file(INSTALL DESTINATION "/home/ubuntu/robotics_project/install" TYPE FILE FILES
+    "/home/ubuntu/robotics_project/build/catkin_generated/installspace/setup.fish"
+    "/home/ubuntu/robotics_project/build/catkin_generated/installspace/local_setup.fish"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/vboxuser/robot_project_ws/install/.rosinstall")
+   "/home/ubuntu/robotics_project/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/vboxuser/robot_project_ws/install" TYPE FILE FILES "/home/vboxuser/robot_project_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/ubuntu/robotics_project/install" TYPE FILE FILES "/home/ubuntu/robotics_project/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/vboxuser/robot_project_ws/build/gtest/cmake_install.cmake")
-  include("/home/vboxuser/robot_project_ws/build/robot_security_system/security_bringup/cmake_install.cmake")
-  include("/home/vboxuser/robot_project_ws/build/robot_security_system/security_gpio/cmake_install.cmake")
-  include("/home/vboxuser/robot_project_ws/build/robot_security_system/security_listener/cmake_install.cmake")
-  include("/home/vboxuser/robot_project_ws/build/robot_security_system/security_logger/cmake_install.cmake")
-  include("/home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs/cmake_install.cmake")
-  include("/home/vboxuser/robot_project_ws/build/robot_security_system/security_supervisor/cmake_install.cmake")
-  include("/home/vboxuser/robot_project_ws/build/robot_security_system/security_threat/cmake_install.cmake")
+  include("/home/ubuntu/robotics_project/build/gtest/cmake_install.cmake")
+  include("/home/ubuntu/robotics_project/build/robot_security_system/security_bringup/cmake_install.cmake")
+  include("/home/ubuntu/robotics_project/build/robot_security_system/security_gpio/cmake_install.cmake")
+  include("/home/ubuntu/robotics_project/build/robot_security_system/security_listener/cmake_install.cmake")
+  include("/home/ubuntu/robotics_project/build/robot_security_system/security_logger/cmake_install.cmake")
+  include("/home/ubuntu/robotics_project/build/robot_security_system/security_msgs/cmake_install.cmake")
+  include("/home/ubuntu/robotics_project/build/robot_security_system/security_supervisor/cmake_install.cmake")
+  include("/home/ubuntu/robotics_project/build/robot_security_system/security_threat/cmake_install.cmake")
 
 endif()
 
@@ -164,5 +164,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vboxuser/robot_project_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/robotics_project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "security_logger")
 set(security_logger_VERSION "0.0.0")
-set(security_logger_MAINTAINER "vboxuser <vboxuser@todo.todo>")
+set(security_logger_MAINTAINER "Reem Bin Haider <reembinhaiderr@gmail.com>")
 set(security_logger_PACKAGE_FORMAT "2")
 set(security_logger_BUILD_DEPENDS "rospy" "std_msgs")
 set(security_logger_BUILD_EXPORT_DEPENDS "rospy" "std_msgs")

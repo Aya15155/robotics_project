@@ -1,4 +1,4 @@
-prefix=/home/vboxuser/robot_project_ws/devel
+prefix=/home/ubuntu/robotics_project/devel
 
 Name: security_listener
 Description: Description of security_listener

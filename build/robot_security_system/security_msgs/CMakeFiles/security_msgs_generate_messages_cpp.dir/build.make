@@ -43,95 +43,95 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/robot_project_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/robotics_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vboxuser/robot_project_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/robotics_project/build
 
 # Utility rule file for security_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp.dir/progress.make
 
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionGoal.h
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionResult.h
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionFeedback.h
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatGoal.h
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatResult.h
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatFeedback.h
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionGoal.h
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionResult.h
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionFeedback.h
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatGoal.h
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatResult.h
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatFeedback.h
 
 
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatAction.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatResult.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from security_msgs/ConfirmThreatAction.msg"
-	cd /home/vboxuser/robot_project_ws/src/robot_security_system/security_msgs && /home/vboxuser/robot_project_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatAction.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatAction.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from security_msgs/ConfirmThreatAction.msg"
+	cd /home/ubuntu/robotics_project/src/robot_security_system/security_msgs && /home/ubuntu/robotics_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatAction.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionGoal.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionGoal.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from security_msgs/ConfirmThreatActionGoal.msg"
-	cd /home/vboxuser/robot_project_ws/src/robot_security_system/security_msgs && /home/vboxuser/robot_project_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionGoal.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionGoal.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from security_msgs/ConfirmThreatActionGoal.msg"
+	cd /home/ubuntu/robotics_project/src/robot_security_system/security_msgs && /home/ubuntu/robotics_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionResult.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionResult.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatResult.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from security_msgs/ConfirmThreatActionResult.msg"
-	cd /home/vboxuser/robot_project_ws/src/robot_security_system/security_msgs && /home/vboxuser/robot_project_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionResult.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionResult.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from security_msgs/ConfirmThreatActionResult.msg"
+	cd /home/ubuntu/robotics_project/src/robot_security_system/security_msgs && /home/ubuntu/robotics_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from security_msgs/ConfirmThreatActionFeedback.msg"
-	cd /home/vboxuser/robot_project_ws/src/robot_security_system/security_msgs && /home/vboxuser/robot_project_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from security_msgs/ConfirmThreatActionFeedback.msg"
+	cd /home/ubuntu/robotics_project/src/robot_security_system/security_msgs && /home/ubuntu/robotics_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatGoal.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from security_msgs/ConfirmThreatGoal.msg"
-	cd /home/vboxuser/robot_project_ws/src/robot_security_system/security_msgs && /home/vboxuser/robot_project_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatGoal.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatGoal.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from security_msgs/ConfirmThreatGoal.msg"
+	cd /home/ubuntu/robotics_project/src/robot_security_system/security_msgs && /home/ubuntu/robotics_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatResult.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatResult.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from security_msgs/ConfirmThreatResult.msg"
-	cd /home/vboxuser/robot_project_ws/src/robot_security_system/security_msgs && /home/vboxuser/robot_project_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatResult.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatResult.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from security_msgs/ConfirmThreatResult.msg"
+	cd /home/ubuntu/robotics_project/src/robot_security_system/security_msgs && /home/ubuntu/robotics_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatFeedback.h: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
-/home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from security_msgs/ConfirmThreatFeedback.msg"
-	cd /home/vboxuser/robot_project_ws/src/robot_security_system/security_msgs && /home/vboxuser/robot_project_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatFeedback.h: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
+/home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from security_msgs/ConfirmThreatFeedback.msg"
+	cd /home/ubuntu/robotics_project/src/robot_security_system/security_msgs && /home/ubuntu/robotics_project/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/include/security_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 security_msgs_generate_messages_cpp: robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp
-security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatAction.h
-security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionGoal.h
-security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionResult.h
-security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatActionFeedback.h
-security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatGoal.h
-security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatResult.h
-security_msgs_generate_messages_cpp: /home/vboxuser/robot_project_ws/devel/include/security_msgs/ConfirmThreatFeedback.h
+security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatAction.h
+security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionGoal.h
+security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionResult.h
+security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatActionFeedback.h
+security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatGoal.h
+security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatResult.h
+security_msgs_generate_messages_cpp: /home/ubuntu/robotics_project/devel/include/security_msgs/ConfirmThreatFeedback.h
 security_msgs_generate_messages_cpp: robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : security_msgs_generate_messages_cpp
@@ -142,10 +142,10 @@ robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_c
 .PHONY : robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp.dir/build
 
 robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp.dir/clean:
-	cd /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs && $(CMAKE_COMMAND) -P CMakeFiles/security_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && $(CMAKE_COMMAND) -P CMakeFiles/security_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp.dir/clean
 
 robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp.dir/depend:
-	cd /home/vboxuser/robot_project_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/robot_project_ws/src /home/vboxuser/robot_project_ws/src/robot_security_system/security_msgs /home/vboxuser/robot_project_ws/build /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robotics_project/src /home/ubuntu/robotics_project/src/robot_security_system/security_msgs /home/ubuntu/robotics_project/build /home/ubuntu/robotics_project/build/robot_security_system/security_msgs /home/ubuntu/robotics_project/build/robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_cpp.dir/depend
 

@@ -43,88 +43,88 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/robot_project_ws/src
+CMAKE_SOURCE_DIR = /home/ubuntu/robotics_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vboxuser/robot_project_ws/build
+CMAKE_BINARY_DIR = /home/ubuntu/robotics_project/build
 
 # Utility rule file for security_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs.dir/progress.make
 
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatGoal.js
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatResult.js
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatFeedback.js
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatGoal.js
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatResult.js
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatFeedback.js
 
 
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatAction.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatResult.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from security_msgs/ConfirmThreatAction.msg"
-	cd /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatAction.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatAction.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from security_msgs/ConfirmThreatAction.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatAction.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg
 
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from security_msgs/ConfirmThreatActionGoal.msg"
-	cd /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from security_msgs/ConfirmThreatActionGoal.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg
 
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatResult.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from security_msgs/ConfirmThreatActionResult.msg"
-	cd /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from security_msgs/ConfirmThreatActionResult.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg
 
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from security_msgs/ConfirmThreatActionFeedback.msg"
-	cd /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from security_msgs/ConfirmThreatActionFeedback.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg
 
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatGoal.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from security_msgs/ConfirmThreatGoal.msg"
-	cd /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatGoal.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatGoal.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from security_msgs/ConfirmThreatGoal.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg
 
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatResult.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from security_msgs/ConfirmThreatResult.msg"
-	cd /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatResult.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatResult.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from security_msgs/ConfirmThreatResult.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg
 
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatFeedback.js: /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vboxuser/robot_project_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from security_msgs/ConfirmThreatFeedback.msg"
-	cd /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/vboxuser/robot_project_ws/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg -Isecurity_msgs:/home/vboxuser/robot_project_ws/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatFeedback.js: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from security_msgs/ConfirmThreatFeedback.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg
 
 security_msgs_generate_messages_nodejs: robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs
-security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js
-security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js
-security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js
-security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js
-security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatGoal.js
-security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatResult.js
-security_msgs_generate_messages_nodejs: /home/vboxuser/robot_project_ws/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatFeedback.js
+security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatAction.js
+security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionGoal.js
+security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionResult.js
+security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatActionFeedback.js
+security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatGoal.js
+security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatResult.js
+security_msgs_generate_messages_nodejs: /home/ubuntu/robotics_project/devel/share/gennodejs/ros/security_msgs/msg/ConfirmThreatFeedback.js
 security_msgs_generate_messages_nodejs: robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : security_msgs_generate_messages_nodejs
@@ -135,10 +135,10 @@ robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_n
 .PHONY : robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs.dir/build
 
 robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs && $(CMAKE_COMMAND) -P CMakeFiles/security_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && $(CMAKE_COMMAND) -P CMakeFiles/security_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs.dir/clean
 
 robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/vboxuser/robot_project_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vboxuser/robot_project_ws/src /home/vboxuser/robot_project_ws/src/robot_security_system/security_msgs /home/vboxuser/robot_project_ws/build /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs /home/vboxuser/robot_project_ws/build/robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robotics_project/src /home/ubuntu/robotics_project/src/robot_security_system/security_msgs /home/ubuntu/robotics_project/build /home/ubuntu/robotics_project/build/robot_security_system/security_msgs /home/ubuntu/robotics_project/build/robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_nodejs.dir/depend
 
