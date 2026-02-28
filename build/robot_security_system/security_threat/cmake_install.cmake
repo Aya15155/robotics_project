@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/robotics_project/src/robot_security_system/security_threat
+# Install script for directory: /home/rana/robotics_project/src/robot_security_system/security_threat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/robotics_project/install")
+  set(CMAKE_INSTALL_PREFIX "/home/rana/robotics_project/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/robotics_project/build/robot_security_system/security_threat/catkin_generated/installspace/security_threat.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rana/robotics_project/build/robot_security_system/security_threat/catkin_generated/installspace/security_threat.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/security_threat/cmake" TYPE FILE FILES
-    "/home/ubuntu/robotics_project/build/robot_security_system/security_threat/catkin_generated/installspace/security_threatConfig.cmake"
-    "/home/ubuntu/robotics_project/build/robot_security_system/security_threat/catkin_generated/installspace/security_threatConfig-version.cmake"
+    "/home/rana/robotics_project/build/robot_security_system/security_threat/catkin_generated/installspace/security_threatConfig.cmake"
+    "/home/rana/robotics_project/build/robot_security_system/security_threat/catkin_generated/installspace/security_threatConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/security_threat" TYPE FILE FILES "/home/ubuntu/robotics_project/src/robot_security_system/security_threat/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/security_threat" TYPE FILE FILES "/home/rana/robotics_project/src/robot_security_system/security_threat/package.xml")
 endif()
 

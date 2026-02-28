@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/robotics_project/src
+CMAKE_SOURCE_DIR = /home/rana/robotics_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/robotics_project/build
+CMAKE_BINARY_DIR = /home/rana/robotics_project/build
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/ubuntu/robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robotics_project/src /home/ubuntu/robotics_project/src /home/ubuntu/robotics_project/build /home/ubuntu/robotics_project/build /home/ubuntu/robotics_project/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rana/robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rana/robotics_project/src /home/rana/robotics_project/src /home/rana/robotics_project/build /home/rana/robotics_project/build /home/rana/robotics_project/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

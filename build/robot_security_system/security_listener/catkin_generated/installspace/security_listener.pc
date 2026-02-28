@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/robotics_project/install
+prefix=/home/rana/robotics_project/install
 
 Name: security_listener
 Description: Description of security_listener

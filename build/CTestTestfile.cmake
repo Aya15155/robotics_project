@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ubuntu/robotics_project/src
-# Build directory: /home/ubuntu/robotics_project/build
+# Source directory: /home/rana/robotics_project/src
+# Build directory: /home/rana/robotics_project/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
