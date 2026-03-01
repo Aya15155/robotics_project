@@ -7,10 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/rana/robotics_project/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/rana/robotics_project/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/rana/robotics_project/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/rana/robotics_project/build'
-export PYTHONPATH="/home/rana/robotics_project/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/rana/robotics_project/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/rana/robotics_project/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/ubuntu/robotics_project/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/ubuntu/robotics_project/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/ubuntu/robotics_project/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/ubuntu/robotics_project/src:$ROS_PACKAGE_PATH"

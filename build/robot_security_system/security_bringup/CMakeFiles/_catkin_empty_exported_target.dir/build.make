@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rana/robotics_project/src
+CMAKE_SOURCE_DIR = /home/ubuntu/robotics_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rana/robotics_project/build
+CMAKE_BINARY_DIR = /home/ubuntu/robotics_project/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ robot_security_system/security_bringup/CMakeFiles/_catkin_empty_exported_target.
 .PHONY : robot_security_system/security_bringup/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 robot_security_system/security_bringup/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/rana/robotics_project/build/robot_security_system/security_bringup && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_bringup && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : robot_security_system/security_bringup/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 robot_security_system/security_bringup/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/rana/robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rana/robotics_project/src /home/rana/robotics_project/src/robot_security_system/security_bringup /home/rana/robotics_project/build /home/rana/robotics_project/build/robot_security_system/security_bringup /home/rana/robotics_project/build/robot_security_system/security_bringup/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robotics_project/src /home/ubuntu/robotics_project/src/robot_security_system/security_bringup /home/ubuntu/robotics_project/build /home/ubuntu/robotics_project/build/robot_security_system/security_bringup /home/ubuntu/robotics_project/build/robot_security_system/security_bringup/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_security_system/security_bringup/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

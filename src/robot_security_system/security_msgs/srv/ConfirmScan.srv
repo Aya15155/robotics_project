@@ -1,0 +1,4 @@
+int32 duration_sec
+---
+bool started
+string message

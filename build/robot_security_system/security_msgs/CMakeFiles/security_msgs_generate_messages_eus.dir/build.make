@@ -43,94 +43,101 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rana/robotics_project/src
+CMAKE_SOURCE_DIR = /home/ubuntu/robotics_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rana/robotics_project/build
+CMAKE_BINARY_DIR = /home/ubuntu/robotics_project/build
 
 # Utility rule file for security_msgs_generate_messages_eus.
 
 # Include the progress variables for this target.
 include robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus.dir/progress.make
 
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatGoal.l
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatResult.l
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatFeedback.l
-robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/manifest.l
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatGoal.l
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatResult.l
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatFeedback.l
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/srv/ConfirmScan.l
+robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/manifest.l
 
 
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatAction.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rana/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from security_msgs/ConfirmThreatAction.msg"
-	cd /home/rana/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatAction.msg -Isecurity_msgs:/home/rana/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatAction.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from security_msgs/ConfirmThreatAction.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatAction.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg
 
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rana/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from security_msgs/ConfirmThreatActionGoal.msg"
-	cd /home/rana/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg -Isecurity_msgs:/home/rana/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from security_msgs/ConfirmThreatActionGoal.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionGoal.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg
 
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rana/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from security_msgs/ConfirmThreatActionResult.msg"
-	cd /home/rana/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg -Isecurity_msgs:/home/rana/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from security_msgs/ConfirmThreatActionResult.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionResult.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg
 
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rana/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from security_msgs/ConfirmThreatActionFeedback.msg"
-	cd /home/rana/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg -Isecurity_msgs:/home/rana/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from security_msgs/ConfirmThreatActionFeedback.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatActionFeedback.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg
 
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatGoal.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rana/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from security_msgs/ConfirmThreatGoal.msg"
-	cd /home/rana/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg -Isecurity_msgs:/home/rana/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatGoal.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from security_msgs/ConfirmThreatGoal.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatGoal.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg
 
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatResult.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rana/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp code from security_msgs/ConfirmThreatResult.msg"
-	cd /home/rana/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg -Isecurity_msgs:/home/rana/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatResult.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp code from security_msgs/ConfirmThreatResult.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatResult.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg
 
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatFeedback.l: /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rana/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp code from security_msgs/ConfirmThreatFeedback.msg"
-	cd /home/rana/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/rana/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg -Isecurity_msgs:/home/rana/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatFeedback.l: /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp code from security_msgs/ConfirmThreatFeedback.msg"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ubuntu/robotics_project/devel/share/security_msgs/msg/ConfirmThreatFeedback.msg -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg
 
-/home/rana/robotics_project/devel/share/roseus/ros/security_msgs/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rana/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp manifest code for security_msgs"
-	cd /home/rana/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/rana/robotics_project/devel/share/roseus/ros/security_msgs security_msgs std_msgs actionlib_msgs
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/srv/ConfirmScan.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/srv/ConfirmScan.l: /home/ubuntu/robotics_project/src/robot_security_system/security_msgs/srv/ConfirmScan.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from security_msgs/ConfirmScan.srv"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ubuntu/robotics_project/src/robot_security_system/security_msgs/srv/ConfirmScan.srv -Isecurity_msgs:/home/ubuntu/robotics_project/devel/share/security_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p security_msgs -o /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/srv
+
+/home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/robotics_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating EusLisp manifest code for security_msgs"
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs security_msgs std_msgs actionlib_msgs
 
 security_msgs_generate_messages_eus: robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus
-security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l
-security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l
-security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l
-security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l
-security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatGoal.l
-security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatResult.l
-security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatFeedback.l
-security_msgs_generate_messages_eus: /home/rana/robotics_project/devel/share/roseus/ros/security_msgs/manifest.l
+security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatAction.l
+security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionGoal.l
+security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionResult.l
+security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatActionFeedback.l
+security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatGoal.l
+security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatResult.l
+security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/msg/ConfirmThreatFeedback.l
+security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/srv/ConfirmScan.l
+security_msgs_generate_messages_eus: /home/ubuntu/robotics_project/devel/share/roseus/ros/security_msgs/manifest.l
 security_msgs_generate_messages_eus: robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus.dir/build.make
 
 .PHONY : security_msgs_generate_messages_eus
@@ -141,10 +148,10 @@ robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_e
 .PHONY : robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus.dir/build
 
 robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus.dir/clean:
-	cd /home/rana/robotics_project/build/robot_security_system/security_msgs && $(CMAKE_COMMAND) -P CMakeFiles/security_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/ubuntu/robotics_project/build/robot_security_system/security_msgs && $(CMAKE_COMMAND) -P CMakeFiles/security_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus.dir/clean
 
 robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus.dir/depend:
-	cd /home/rana/robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rana/robotics_project/src /home/rana/robotics_project/src/robot_security_system/security_msgs /home/rana/robotics_project/build /home/rana/robotics_project/build/robot_security_system/security_msgs /home/rana/robotics_project/build/robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robotics_project/src /home/ubuntu/robotics_project/src/robot_security_system/security_msgs /home/ubuntu/robotics_project/build /home/ubuntu/robotics_project/build/robot_security_system/security_msgs /home/ubuntu/robotics_project/build/robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_security_system/security_msgs/CMakeFiles/security_msgs_generate_messages_eus.dir/depend
 

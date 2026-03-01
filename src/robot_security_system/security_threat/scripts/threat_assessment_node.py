@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import rospy
-from std_msgs.msg import Bool, Int32, String
+from std_msgs.msg import Bool, Int32
 
 pir_state = False
 gas_state = 0
@@ -8,15 +8,15 @@ flame_state = False
 
 def pir_cb(msg: Bool):
     global pir_state
-    pir_state = msg.data
+    pir_state = bool(msg.data)
 
 def gas_cb(msg: Int32):
     global gas_state
-    gas_state = msg.data
+    gas_state = int(msg.data)
 
 def flame_cb(msg: Bool):
     global flame_state
-    flame_state = msg.data
+    flame_state = bool(msg.data)
 
 def main():
     rospy.init_node("threat_assessment_node")
@@ -25,17 +25,17 @@ def main():
     rospy.Subscriber("/sensor/gas", Int32, gas_cb)
     rospy.Subscriber("/sensor/flame", Bool, flame_cb)
 
-    threat_pub = rospy.Publisher("/threat/level", String, queue_size=10, latch=True)
+    # 0=LOW, 1=MEDIUM, 2=HIGH
+    threat_pub = rospy.Publisher("/threat/level", Int32, queue_size=10, latch=True)
 
     rate = rospy.Rate(5)
     while not rospy.is_shutdown():
-        # Simple fusion rule (Member C can refine)
         if flame_state or gas_state == 1:
-            threat = "HIGH"
+            threat = 2
         elif pir_state:
-            threat = "MEDIUM"
+            threat = 1
         else:
-            threat = "LOW"
+            threat = 0
 
         threat_pub.publish(threat)
         rate.sleep()

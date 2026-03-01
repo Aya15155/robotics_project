@@ -1,0 +1,28 @@
+<launch>
+
+  <!-- GPIO Sensors Publisher -->
+  <node pkg="security_gpio"
+        type="gpio_node.py"
+        name="gpio_node"
+        output="screen" />
+
+  <!-- Threat Assessment / Fusion Node -->
+  <node pkg="security_threat"
+        type="threat_assessment_node.py"
+        name="threat_assessment_node"
+        output="screen" />
+  <!-- Supervisor FSM -->
+  <node pkg="security_supervisor"
+        type="supervisor_fsm_node.py"
+        name="supervisor_fsm_node"
+        output="screen" />
+  <!-- Event Logger -->
+  <node pkg="security_logger"
+        type="event_logger.py"
+        name="event_logger"
+        output="screen" />
+  <node pkg="security_gpio" 
+        type="actuator_node.py" 
+        name="actuator_node" 
+        output="screen" />
+</launch>

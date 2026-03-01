@@ -1,4 +1,4 @@
-prefix=/home/rana/robotics_project/devel
+prefix=/home/ubuntu/robotics_project/devel
 
 Name: security_logger
 Description: Description of security_logger

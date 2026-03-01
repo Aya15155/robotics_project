@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rana/robotics_project/src
+CMAKE_SOURCE_DIR = /home/ubuntu/robotics_project/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rana/robotics_project/build
+CMAKE_BINARY_DIR = /home/ubuntu/robotics_project/build
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/rana/robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rana/robotics_project/src /home/rana/robotics_project/src /home/rana/robotics_project/build /home/rana/robotics_project/build /home/rana/robotics_project/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/robotics_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/robotics_project/src /home/ubuntu/robotics_project/src /home/ubuntu/robotics_project/build /home/ubuntu/robotics_project/build /home/ubuntu/robotics_project/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

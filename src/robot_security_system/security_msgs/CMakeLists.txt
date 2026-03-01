@@ -14,6 +14,14 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
+add_service_files(
+  FILES
+  ConfirmScan.srv
+)
+
+
+
+
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 

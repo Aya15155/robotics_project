@@ -1,2 +1,2 @@
 robot_security_system/security_bringup:robot_security_system/security_gpio:robot_security_system/security_listener:robot_security_system/security_logger:robot_security_system/security_msgs:robot_security_system/security_supervisor:robot_security_system/security_threat
--DCATKIN_DEVEL_PREFIX=/home/rana/robotics_project/devel -DCMAKE_INSTALL_PREFIX=/home/rana/robotics_project/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/robotics_project/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotics_project/install -G Unix Makefiles
